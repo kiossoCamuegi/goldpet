@@ -245,50 +245,35 @@ function SearchComponents() {
                     <form className='space-search' action="#">
                         <div className="filters scroll-view sr1">
                             <div className="top-filter"><Link to="/" className='text-main'><span>Inicio</span></Link> / produtos</div>
-                            <form action="" id="filtersearch">
-                                <div className="mt-2 mb-2 sr">
-                                    <div className="search-by-types">
-                                        {CategoriesTypes.map((item, index) => (
-                                            <Dropdown key={index}>
-                                                <Dropdown.Toggle className={ActiveCategorie === item.code ? "btn mt-2 active" : "btn mt-2"} id="dropdown-basic">{item.name}</Dropdown.Toggle>
-                                                <Dropdown.Menu>
-                                                    <div onClick={() => SetActiveCategorie(item.code)}>
-                                                        <Dropdown.Item href="#/action-1">#####</Dropdown.Item>
-                                                    </div>
-                                                </Dropdown.Menu>
-                                            </Dropdown>
-                                        ))}
-                                    </div>
-                                </div>
-                                <br />
-                                <hr />
+                            <form action="" id="filtersearch"> 
+                                <br /> 
                                 <h5 className="title">Marcas</h5>
-                                <ul>
-                                    <div className="custom-control custom-checkbox">
-                                        <input type="checkbox" className="custom-control-input" name="" id="" value="" />
-                                        <label className="custom-control-label ml-2" for="">Comprag</label>
-                                    </div>
-                                    <div className="custom-control custom-checkbox">
-                                        <input type="checkbox" className="custom-control-input" name="" id="" value="" />
-                                        <label className="custom-control-label ml-2" for=""> Elgi</label>
-                                    </div>
-                                    <div className="custom-control custom-checkbox">
-                                        <input type="checkbox" className="custom-control-input" name="" id="" value="" />
-                                        <label className="custom-control-label ml-2" for="">Infinity</label>
-                                    </div>
-                                    <div className="custom-control custom-checkbox">
-                                        <input type="checkbox" className="custom-control-input" name="" id="" value="" />
-                                        <label className="custom-control-label ml-2" for="">Jork </label>
-                                    </div>
-                                    <div className="custom-control custom-checkbox">
-                                        <input type="checkbox" className="custom-control-input" name="" id="" value="" />
-                                        <label className="custom-control-label ml-2" for=""> Aignep</label>
-                                    </div>
-                                    <div className="custom-control custom-checkbox">
-                                        <input type="checkbox" className="custom-control-input" name="" id="" value="" />
-                                        <label className="custom-control-label ml-2" for="">Bigiessie</label>
-                                    </div>
-                                </ul>
+                               <ul>
+                            <div className="custom-control custom-checkbox">
+                                <input type="checkbox" className="custom-control-input" name="" id="" value="" />
+                                <label className="custom-control-label ml-2" for="">Alleva</label>
+                            </div>
+                            <div className="custom-control custom-checkbox">
+                                <input type="checkbox" className="custom-control-input" name="" id="" value="" />
+                                <label className="custom-control-label ml-2" for=""> Profine</label>
+                            </div>
+                            <div className="custom-control custom-checkbox">
+                                <input type="checkbox" className="custom-control-input" name="" id="" value="" />
+                                <label className="custom-control-label ml-2" for="">Canagan</label>
+                            </div>
+                            <div className="custom-control custom-checkbox">
+                                <input type="checkbox" className="custom-control-input" name="" id="" value="" />
+                                <label className="custom-control-label ml-2" for="">Eukanuba </label>
+                            </div>
+                            <div className="custom-control custom-checkbox">
+                                <input type="checkbox" className="custom-control-input" name="" id="" value="" />
+                                <label className="custom-control-label ml-2" for=""> Grandorf</label>
+                            </div>
+                            <div className="custom-control custom-checkbox">
+                                <input type="checkbox" className="custom-control-input" name="" id="" value="" />
+                                <label className="custom-control-label ml-2" for="">Orijen</label>
+                            </div>
+                        </ul>
                                 <hr />
                                 <h5 className="title">Preços</h5>
                                 <ul>
