@@ -1,0 +1,110 @@
+body.dark{
+    background:var(--k-small-dark);
+    color:var(--k-light);
+    transition:all 1s ease-in-out;
+}
+
+
+body.dark  .header  .navbar{
+    color:var(--k-light);
+    background:var(--k-big-dark);
+    border-top:1px solid var(--dark);
+    border-bottom:1px solid var(--dark);
+}
+
+body.dark  .header  .navbar li a{
+    color:var(--k-light);
+}
+
+body.dark .header .top{
+    background-color: var(--k-big-dark);
+    color:var(--k-silver);
+}
+
+
+body.dark .header .top li,
+body.dark .header .top  a{
+    color:var(--k-silver);   
+}
+
+body.dark .header .navbar-classic{
+    background:var(--k-small-dark);
+}
+
+body.dark .header .navbar-classic .logo{
+    color:var(--k-light);
+}
+
+body.dark .header .navbar-classic  .links li a{
+    color:var(--k-light);
+}
+
+
+body.dark .header .navbar-classic .search-box .fa{
+    color:var(--k-purple-main);
+}
+
+body.dark  .header  .search-box ,
+body.dark .header .navbar-classic .search-box input,
+body.dark .header .navbar-classic .search-box select{
+    background:var(--k-big-dark);
+    color:var(--k-light);
+}
+
+body.dark .header .navbar .categories, 
+body.dark .header .navbar .categories .inner-wrap  a{
+    color:var(--k-light);
+}
+
+
+body.dark .header  .navbar .categories{
+    border-left:1px solid  var(--dark);
+    border-right:1px solid var(--dark);
+}
+
+
+body.dark .header .top .lang ul{
+    background:var(--k-small-dark);
+}
+
+
+body.dark  .header .br{
+    background:var(--dark);
+}
+
+
+body.dark footer{
+    background:var(--k-big-dark);
+}
+
+
+ 
+body.dark .newsletter{
+    border-top: 1px solid var(--dark);
+    border-bottom: 1px solid var(--dark);
+    background:linear-gradient(45deg, var(--k-purple-main) 10%, 
+    var(--k-big-dark)  10% 50%, var(--k-purple-main) 20%, var(--k-big-dark)  10% 50%);
+}
+
+
+body.dark .cs-carousel .prev, 
+body.dark .cs-carousel .next{
+    background:var(--k-big-dark);
+    color:var(--k-light);
+    border:1px solid var(--dark);
+}
+
+
+body.dark .cat.item h4{
+    color:var(--k-light);
+}
+
+
+body.dark .title::after{ 
+    background:linear-gradient(45deg, var(--k-purple-main) 25%, 
+    var(--k-purple-main) 10% 50%, var(--k-purple-main) 20%, var(--k-big-dark) 10% 50%);   
+}
+
+
+
+
