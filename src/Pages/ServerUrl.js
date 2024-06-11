@@ -1,6 +1,6 @@
  
 function ServerUrl() {
-  return "https://goldpetserver.vercel.app/"
+  return "http://localhost:6500/"
 }
 
 export default ServerUrl
